@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraftguns",
+  "version": "${version}",
+  "name": "Minecraft Guns V2 - Pistolet du Chaos",
+  "description": "Pistolet 3D voxel, projectiles hitscan, balles et recharge R.",
+  "authors": [
+    "ChatGPT"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.minecraftguns.MinecraftGuns"
+    ],
+    "client": [
+      "fr.minecraftguns.MinecraftGunsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
