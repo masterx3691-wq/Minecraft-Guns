@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraftguns",
+  "version": "${version}",
+  "name": "Minecraft Guns - Pistolet du Chaos",
+  "description": "Un pistolet pixel art avec tir au clic droit et munitions illimitees.",
+  "authors": ["ChatGPT"],
+  "environment": "*",
+  "entrypoints": {"main": ["fr.minecraftguns.MinecraftGuns"]},
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
