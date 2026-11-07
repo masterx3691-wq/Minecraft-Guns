@@ -24,7 +24,7 @@ jobs:
           gradle-version: '8.12.1'
 
       - name: Compiler le mod
-        working-directory: minecraft_guns_project
+        working-directory: Minecraft_Guns_V2_Fabric_1.21.1_SOURCE
         run: |
           
           gradle build
@@ -33,5 +33,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Minecraft-Guns
-          path: minecraft_guns_project/build/libs/*.jar
+          path: Minecraft_Guns_V2_Fabric_1.21.1_SOURCE/build/libs/*.jar
         
