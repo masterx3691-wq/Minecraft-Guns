@@ -26,12 +26,12 @@ jobs:
       - name: Compiler le mod
         working-directory: minecraft_guns_project
         run: |
-          cp "fichier build.gradle" build.gradle
+          
           gradle build
 
       - name: Recuperer le JAR
         uses: actions/upload-artifact@v4
         with:
           name: Minecraft-Guns
-          path: "projet d'armes à feu de Minecraft/build/libs/*.jar"
+          path: minecraft_guns_project/build/libs/*.jar
         
