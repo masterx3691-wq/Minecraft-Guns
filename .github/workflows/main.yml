@@ -24,7 +24,7 @@ jobs:
           gradle-version: '8.8'
 
       - name: Compiler le mod
-        working-directory: "projet d'armes à feu de Minecraft"
+        working-directory: minecraft_guns_project
         run: |
           cp "fichier build.gradle" build.gradle
           gradle build
